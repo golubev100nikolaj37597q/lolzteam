@@ -1,0 +1,13 @@
+// Миксин для медиазапроса с минимальной шириной экрана
+@mixin media-min($width) {
+    @media screen and (min-width: $width) {
+        @content;
+    }
+}
+
+// Миксин для медиазапроса с максимальной шириной экрана
+@mixin media-max($width) {
+    @media screen and (max-width: $width) {
+        @content;
+    }
+}
