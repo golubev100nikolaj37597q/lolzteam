@@ -3,3 +3,22 @@
 @import 'variables.scss';
 @import 'mixins.scss';
 @import 'header.scss';
+
+.list {
+    list-style-type: none;
+
+    @include font-inter(18px, 445, normal);
+
+    &.flex {
+        display: flex;
+
+        &.gap-32 {
+            gap: 32px;
+        }
+
+        &.gap-28 {
+            gap: 28px;
+        }
+    }
+
+}

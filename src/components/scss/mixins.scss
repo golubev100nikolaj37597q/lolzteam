@@ -11,3 +11,12 @@
         @content;
     }
 }
+
+@mixin font-inter($font-size, $font-weight, $line-height){
+    font-family: Inter;
+    font-size: $font-size;
+    font-style: normal;
+    font-weight: $font-weight;
+    line-height: $line-height;
+    color: $txt-cl-default;
+}
