@@ -3,14 +3,14 @@
 
     @include font-inter(18px, 445, normal);
 
-    &.flex {
+    &.list__flex {
         display: flex;
 
-        &.gap-32 {
+        &.list__gap-32 {
             gap: 32px;
         }
 
-        &.gap-28 {
+        &.list__gap-28 {
             gap: 28px;
         }
     }
@@ -26,12 +26,12 @@ button {
     gap: 10px;
     @include font-inter(18px, 500, normal);
 
-    &.dark {
+    &.button__dark {
         color: $txt-cl-btn-dark;
         @include button($br-btn-dark, $bg-btn-dark);
     }
 
-    &.blue {
+    &.button__blue {
         color:$txt-cl-btn-blue;
         @include button($br-btn-blue, $bg-btn-blue);
     }

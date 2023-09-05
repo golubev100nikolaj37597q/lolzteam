@@ -9,9 +9,9 @@
           stroke="#B2BEE2" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
       </svg>
       <input type="text" name="" id="" placeholder="Search...">
-
+      
     </div>
-    <ul class="list flex gap-32">
+    <ul class="list list__flex list__gap-32">
       <li>Trade</li>
       <li>P2P</li>
       <li>Partners</li>
@@ -20,8 +20,8 @@
     </ul>
     <div class="line"></div>
     <div class="btn-group gap-8">
-      <button class="dark">Register</button>
-      <button class="blue">Log In</button>
+      <button class="button__dark">Register</button>
+      <button class="button__blue">Log In</button>
     </div>
 
   </header>
@@ -31,7 +31,7 @@
 export default {
   name: 'headerCrypto',
   props: {
-
+    
   }
 }
 </script>
