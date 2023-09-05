@@ -1,0 +1,47 @@
+.list {
+    list-style-type: none;
+
+    @include font-inter(18px, 445, normal);
+
+    &.flex {
+        display: flex;
+
+        &.gap-32 {
+            gap: 32px;
+        }
+
+        &.gap-28 {
+            gap: 28px;
+        }
+    }
+
+}
+
+
+button {
+    display: inline-flex;
+    padding: 10px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    @include font-inter(18px, 500, normal);
+
+    &.dark {
+        color: $txt-cl-btn-dark;
+        @include button($br-btn-dark, $bg-btn-dark);
+    }
+
+    &.blue {
+        color:$txt-cl-btn-blue;
+        @include button($br-btn-blue, $bg-btn-blue);
+    }
+
+}
+
+.btn-group{
+    display: flex;
+    &.gap-8{
+        gap: 8px;
+    }
+
+}

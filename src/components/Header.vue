@@ -11,13 +11,19 @@
       <input type="text" name="" id="" placeholder="Search...">
 
     </div>
-    <ul class="list flex gap32">
+    <ul class="list flex gap-32">
       <li>Trade</li>
       <li>P2P</li>
       <li>Partners</li>
       <li>Mining</li>
       <li>Academy</li>
     </ul>
+    <div class="line"></div>
+    <div class="btn-group gap-8">
+      <button class="dark">Register</button>
+      <button class="blue">Log In</button>
+    </div>
+
   </header>
 </template>
 

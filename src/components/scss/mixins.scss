@@ -20,3 +20,9 @@
     line-height: $line-height;
     color: $txt-cl-default;
 }
+
+@mixin button($border, $background){
+    border-radius:6px;
+    border: $border;
+    background: $background;
+}

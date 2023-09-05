@@ -235,4 +235,37 @@ header .search input[type=text]::placeholder {
 }
 .list.flex.gap-28 {
   gap: 28px;
+}
+
+button {
+  display: inline-flex;
+  padding: 10px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  color: #464E62;
+}
+button.dark {
+  color: #CEE7FF;
+  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  background: radial-gradient(100.04% 100% at 50% 0%, #26314E 0%, #1E253C 100%);
+}
+button.blue {
+  color: #08090B;
+  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  background: var(--1, radial-gradient(100.04% 100% at 50% 0%, #66CBF9 0%, #0FB5FF 100%));
+}
+
+.btn-group {
+  display: flex;
+}
+.btn-group.gap-8 {
+  gap: 8px;
 }/*# sourceMappingURL=main.css.map */

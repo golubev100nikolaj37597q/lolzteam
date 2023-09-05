@@ -7,6 +7,15 @@ $line-bg: #252C41;
 
 //Text Color
 $txt-cl-default: #464E62;
+$txt-cl-btn-dark:#CEE7FF;
+$txt-cl-btn-blue:#08090B;
+//Borders
+$br-btn-dark:1px solid rgba(255, 255, 255, 0.05);
+$br-btn-blue:1px solid rgba(255, 255, 255, 0.05);
+
+//Backgrounds
+$bg-btn-blue:var(--1, radial-gradient(100.04% 100% at 50% 0%, #66CBF9 0%, #0FB5FF 100%));
+$bg-btn-dark:radial-gradient(100.04% 100% at 50% 0%, #26314E 0%, #1E253C 100%);
 
 //Search
 $bg-search:radial-gradient(100.04% 100% at 50% 0%, #26314E 0%, #252B3D 100%);
