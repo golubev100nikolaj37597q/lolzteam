@@ -221,14 +221,65 @@ header .search input[type=text]::placeholder {
 main {
   width: 100%;
   background-color: #0B0F15;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.mini-text {
+section {
+  max-width: 1600px;
+}
+
+.s-1 .s1-left-block .mini-text {
   display: flex;
   padding: 8px 12px;
   justify-content: center;
   align-items: center;
   gap: 10px;
+  border-radius: 6px;
+  border: 1px solid;
+  border-image-source: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 10.71%);
+  background: radial-gradient(50.69% 200% at 50% 50%, #111624 1%, #111624 100%);
+  max-width: 400px;
+  width: 100%;
+}
+.s-1 .s1-left-block h1 {
+  font-family: Inter;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 465;
+  line-height: 75px;
+  color: #464E62;
+  color: rgb(213, 234, 255);
+  max-width: 680px;
+}
+.s-1 .s1-left-block .mail {
+  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  background: radial-gradient(100.04% 100% at 50% 0%, #26314E 0%, #252B3D 100%);
+  display: flex;
+  width: 420px;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 24px 10px 16px;
+}
+.s-1 .s1-left-block .mail input[type=email] {
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  color: #464E62;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  color: #6D799C;
+}
+.s-1 .s1-left-block .mail input[type=email]::-moz-placeholder {
+  color: #6D799C;
+}
+.s-1 .s1-left-block .mail input[type=email]::placeholder {
+  color: #6D799C;
 }
 
 .list {

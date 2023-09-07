@@ -1,12 +1,64 @@
 main {
     width: 100%;
     background-color: $bg-main;
-}
-
-.mini-text {
     display: flex;
-    padding: 8px 12px;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+}
+
+section {
+    max-width: 1600px;
+
+}
+
+.s-1 {
+    .s1-left-block {
+        .mini-text {
+            display: flex;
+            padding: 8px 12px;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            border-radius: 6px;
+            border: 1px solid;
+            border-image-source: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 10.71%);
+            background: radial-gradient(50.69% 200% at 50% 50%, #111624 1%, #111624 100%);
+            max-width: 400px;
+            width: 100%
+        }
+
+        h1 {
+            @include font-inter(70px, 465, 75px);
+            color: rgba(213, 234, 255, 1);
+            max-width: 680px;
+        }
+
+        .mail {
+            border-radius: 6px;
+            border: 1px solid rgba(255, 255, 255, 0.40);
+            background: radial-gradient(100.04% 100% at 50% 0%, #26314E 0%, #252B3D 100%);
+            display: flex;
+            width: 420px;
+
+            align-items: center;
+            gap: 10px;
+            padding: 10px 24px 10px 16px;
+            &.mt-bt{
+                margin-top: 48px;
+            }
+
+            input[type=email] {
+                @include font-inter(18px, 500, normal);
+                background-color: transparent;
+                outline: none;
+                border: none;
+                color: #6D799C;
+
+                &::placeholder {
+                    color: #6D799C;
+                }
+            }
+        }
+
+    }
 }
